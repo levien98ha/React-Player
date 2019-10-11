@@ -1,0 +1,105 @@
+.App {
+    min-height: 150px;
+    max-width: 50%;
+    min-width: 350px;
+    background-color: #01141a;
+    margin: auto;
+    margin-top: 300px;
+    color: white;
+    display: grid;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    margin-top: 10px;
+    align-items: center;
+    min-width: 350px;
+}
+
+.top .nameSong,
+.singerSong {
+    display: inline;
+    font-size: 25px;
+}
+
+.top .nameSong {
+    color: #c4ff4d;
+    margin-left: 10px;
+}
+
+.top .infoSong {
+    margin-left: 10px;
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+    min-width: 350px;
+}
+
+.bottom .material-icons {
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.bottom .repeat {
+    color: #c4ff4d;
+    left: 500px;
+    cursor: pointer;
+}
+
+.timeHr {
+    width: 162%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    position: relative;
+    left: 60px;
+    bottom: 27px;
+}
+
+.bottom .time {
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 640px;
+    bottom: 110px;
+    display: inline;
+}
+
+.bottom .shuffle,
+.volume {
+    margin-left: 10px;
+    left: 643px;
+    bottom: 56px;
+    display: inline;
+    position: relative;
+    cursor: pointer;
+}
+
+.bottom .repeat {
+    margin-left: 75px;
+    left: 640px;
+    bottom: 56px;
+    display: inline;
+    position: relative;
+}
+
+.bottom .volumeValue {
+    width: 80px;
+    color: white;
+    position: relative;
+    height: 2px;
+    background-color: white;
+    margin-left: 10px;
+    left: 823px;
+    bottom: 85px;
+    cursor: pointer;
+}
